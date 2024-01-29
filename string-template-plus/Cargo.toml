@@ -1,0 +1,14 @@
+[package]
+name = "string-template-plus"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+libc = "0.2.152"
+string-template-plus = "0.4.2"
+
+[lib]
+name = "string_template_plus"
+crate-type = ["staticlib", "cdylib"]
